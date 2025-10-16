@@ -13,10 +13,11 @@
             <nav class="pull-right">
                 <a class="button primary" href="/contact">Contact</a>
                 <a class="button primary" href="/blog">Syllabus</a>
+                <a class="button primary" href="/headshot">Photo</a>
             </nav>
         </header>
-        <section>
-            <form action="https://api.web3forms.com/submit" method="POST">
+        <section class="section-main">
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
             <input type="hidden" name="access_key" value="ac1bde23-ae00-4fde-81ed-9acf71ffcd5a">
             <label for="name">Name:</label>
             <input type="text" name="name" required>
@@ -24,12 +25,14 @@
             <input type="email" name="email" required>
             <label for="message">Your message</label>
             <textarea name="message" 
-            rows="5" 
-            cols="40" 
+            rows="8" 
+            cols="60" 
             placeholder="Drop me a note to arrange your first editing or tutoring session"
             required></textarea>
             <button type="submit">Submit Form</button>
             </form>
+            </section>
+
         <footer class="bd-primary">
             Copyright 2025. 
             <a href="https://eatxueit.com">See Lev's Poetry</a>

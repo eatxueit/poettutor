@@ -16,8 +16,24 @@ footer {
     width: 100vh;
     height: 2em;
 }
-.galaxy-header{
-    width: 100%;
+
+.contact-form {
+    padding: 10vh 10vh 10vh 10vh;
+    max-width: 80ch;
+    white-space: normal;
+}
+
+.section-main {
+    background-color: rgba(255, 250, 220, 0.8);
+    display: flex;
+    justify-content: space-evenly;
+}
+.article-main {
+    padding: 10vh 10vh 10vh 10vh;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 80ch;
 }
 
 h1 {
