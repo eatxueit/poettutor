@@ -36,6 +36,20 @@ footer {
     max-width: 80ch;
 }
 
+.article-card {
+    padding: 5vh 5vh 5vh 5vh;
+    background: rgba(255, 255, 255, 0.3);   /* mostly transparent white */
+    backdrop-filter: blur(25px);            /* blurs what's behind it */
+     -webkit-backdrop-filter: blur(25px);    /* Safari support */
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.5);
+    border: 2px dotted grey;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 80ch;
+    border-radius: 12px;
+}
+
 h1 {
     font-family: "Spectral", serif;
 }
