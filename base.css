@@ -33,7 +33,7 @@ footer {
     white-space: normal;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    max-width: 80ch;
+    max-width: 80vh;
 }
 
 .article-card {
@@ -46,7 +46,7 @@ footer {
     white-space: normal;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    max-width: 80ch;
+    max-width: 80vh;
     border-radius: 12px;
 }
 
