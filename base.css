@@ -6,20 +6,29 @@ body {
     align-items: center;
 }
 
+:root {
+    --fluid-width: 80vw;
+}
+@media (min-width: 768px) {
+    :root {
+        --fluid-width: 60vw;
+    }
+}
+
 header {
-    width: 80vw;
+    width: var(--fluid-width);
     margin: 5vh 5vh 5vh 5vh;
 }
 
 footer {
     margin: 1vh 5vh 1vh 5vh;
-    width: 80vw;
+    width: var(--fluid-width);
     height: 2em;
 }
 
 .contact-form {
     padding: 10vh 10vh 10vh 10vh;
-    max-width: 80vw;
+    max-width: var(--fluid-width);
     white-space: normal;
 }
 
@@ -33,7 +42,7 @@ footer {
     white-space: normal;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    max-width: 80vw;
+    max-width: var(--fluid-width);
 }
 
 .article-card {
@@ -46,7 +55,7 @@ footer {
     white-space: normal;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    max-width: 80vw;
+    max-width: var(--fluid-width);
     border-radius: 12px;
 }
 
@@ -55,7 +64,7 @@ h1 {
 }
 section {
     flex-wrap: wrap;
-    width: 80vw;
+    width: var(--fluid-width);
 }
 
 article {
