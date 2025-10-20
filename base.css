@@ -70,3 +70,9 @@ section {
 article {
     border-width: 1px;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* optional but helps remove small gaps below images */
+}
