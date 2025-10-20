@@ -7,19 +7,19 @@ body {
 }
 
 header {
-    width: 100vh;
+    width: 80vw;
     margin: 5vh 5vh 5vh 5vh;
 }
 
 footer {
     margin: 1vh 5vh 1vh 5vh;
-    width: 100vh;
+    width: 80vw;
     height: 2em;
 }
 
 .contact-form {
     padding: 10vh 10vh 10vh 10vh;
-    max-width: 80ch;
+    max-width: 80vw;
     white-space: normal;
 }
 
@@ -29,11 +29,11 @@ footer {
     justify-content: space-evenly;
 }
 .article-main {
-    padding: 10vh 10vh 10vh 10vh;
+    padding: 10vh 10vw 10vh 10vw;
     white-space: normal;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    max-width: 80vh;
+    max-width: 80vw;
 }
 
 .article-card {
@@ -46,7 +46,7 @@ footer {
     white-space: normal;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    max-width: 80vh;
+    max-width: 80vw;
     border-radius: 12px;
 }
 
@@ -55,7 +55,7 @@ h1 {
 }
 section {
     flex-wrap: wrap;
-    width: 100vh;
+    width: 80vw;
 }
 
 article {
